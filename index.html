@@ -3,62 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#a93229">
-  <meta name="description" content="Agro Cão Pet Shop: rações, acessórios, aquarismo e produtos para cuidar dos seus animais. Fale com a gente pelo WhatsApp.">
-  <title>Agro Cão Pet Shop | Tudo para seu companheiro</title>
+  <meta name="theme-color" content="#c91f2c">
+  <meta name="description" content="Agro Cão Pet Shop em Osvaldo Cruz. Produtos para cães, gatos, peixes e outros animais. Consulte pelo WhatsApp.">
+  <title>Agro Cão Pet Shop — Osvaldo Cruz</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="topline">Seu pet faz parte da família. Aqui, ele é bem-vindo! <span>♥</span></div>
-  <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Agro Cão, início">
-      <img class="brand-logo" src="logo.jpg" alt="Logo da Agro Cão Pet Shop" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-      <span class="brand-fallback">🐾</span>
-      <span class="brand-name">AGRO CÃO<small>PET SHOP</small></span>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Agro Cão Pet Shop, início">
+      <img src="logo.jpg" alt="Mascote oficial da Agro Cão">
+      <span>AGRO CÃO<small>PET SHOP · OSVALDO CRUZ</small></span>
     </a>
     <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav class="nav">
-      <a href="#categorias">O que você encontra</a><a href="#sobre">Sobre a loja</a><a href="#contato">Contato</a>
-      <a class="nav-cta" href="https://wa.me/5518996077779" target="_blank" rel="noopener">Chamar no WhatsApp ↗</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#loja">A loja</a>
+      <a href="#contato">Contato</a>
+      <a class="nav-whats" href="https://wa.me/5518996077779" target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
     </nav>
   </header>
-  <main>
-    <section class="hero" id="inicio">
+
+  <main id="inicio">
+    <section class="hero">
       <div class="hero-copy">
-        <span class="eyebrow"><i></i> AGRO CÃO PET SHOP</span>
-        <h1>Tem cuidado,<br>tem carinho.<br><em>Tem Agro Cão!</em></h1>
-        <p>Ração, acessórios, aquarismo e muito mais para os bichinhos que deixam nossos dias mais felizes.</p>
-        <div class="hero-actions"><a class="button button-primary" href="https://wa.me/5518996077779" target="_blank" rel="noopener">Converse com a gente <span>↗</span></a><a class="text-link" href="#categorias">Ver o que tem por aqui ↓</a></div>
-        <div class="hero-note"><span class="note-icon">🐶</span><span><b>Tem pet de todo tipo?</b><small>Por aqui, todo companheiro tem vez.</small></span></div>
+        <span class="kicker">AGRO CÃO PET SHOP · OSVALDO CRUZ - SP</span>
+        <h1>Seu pet precisa?<br><em>Vem pra Agro Cão.</em></h1>
+        <p>Rações, acessórios, aquarismo, medicamentos e produtos para vários tipos de animais. Se estiver procurando alguma coisa, chama a gente.</p>
+        <a class="button" href="https://wa.me/5518996077779" target="_blank" rel="noopener">Consultar pelo WhatsApp <span>↗</span></a>
       </div>
-      <div class="hero-visual">
-        <div class="hero-image" role="img" aria-label="Cachorro caramelo feliz"></div>
-        <div class="floating-card"><span>🐾</span><div><b>Um carinho a mais faz diferença</b><small>Do focinho ao rabinho!</small></div></div>
-        <span class="hero-stamp">AMOR<br>DE PET <small>♥</small></span>
+      <div class="hero-mascot">
+        <img src="logo.jpg" alt="Mascote cachorro caramelo da Agro Cão">
+        <span>O pet shop do<br><b>cachorro de camiseta amarela.</b></span>
       </div>
-      <div class="hero-bottom">RAÇÕES <span>✳</span> ACESSÓRIOS <span>✳</span> AQUARISMO <span>✳</span> CUIDADOS <span>✳</span> E MUITO MAIS</div>
+      <div class="hero-bottom"><span>RAÇÃO</span><i>•</i><span>ACESSÓRIOS</span><i>•</i><span>AQUARISMO</span><i>•</i><span>E MUITO MAIS</span></div>
     </section>
-    <section class="categories section" id="categorias">
-      <div class="section-heading"><div><span class="eyebrow">CADA UM COM SEU JEITINHO</span><h2>Qual é o seu<br><em>companheiro?</em></h2></div><p>Temos opções para diferentes animais. Se estiver procurando algo específico, é só chamar a gente!</p></div>
-      <div class="category-grid">
-        <a class="category-card dogs" href="https://wa.me/5518996077779?text=Oi!%20Queria%20saber%20sobre%20produtos%20para%20c%C3%A3es." target="_blank" rel="noopener"><span class="category-icon">🐕</span><span class="category-number">PRA QUEM AMA UM AU-AU</span><h3>Cães</h3><p>Ração, petiscos, brinquedos e acessórios.</p><span class="card-arrow">↗</span></a>
-        <a class="category-card cats" href="https://wa.me/5518996077779?text=Oi!%20Queria%20saber%20sobre%20produtos%20para%20gatos." target="_blank" rel="noopener"><span class="category-icon">🐈</span><span class="category-number">PRA QUEM AMA UM MIAU</span><h3>Gatos</h3><p>Cuidados e itens para os nossos felinos.</p><span class="card-arrow">↗</span></a>
-        <a class="category-card fish" href="https://wa.me/5518996077779?text=Oi!%20Queria%20saber%20sobre%20aquarismo." target="_blank" rel="noopener"><span class="category-icon">🐠</span><span class="category-number">UM MUNDO À PARTE</span><h3>Aquarismo</h3><p>Produtos para aquários e peixes.</p><span class="card-arrow">↗</span></a>
-        <a class="category-card others" href="https://wa.me/5518996077779?text=Oi!%20Queria%20saber%20sobre%20produtos%20para%20outros%20animais." target="_blank" rel="noopener"><span class="category-icon">🐦</span><span class="category-number">CADA PET É ESPECIAL</span><h3>Outros animais</h3><p>Também tem espaço para os outros companheiros.</p><span class="card-arrow">↗</span></a>
+
+    <section class="products section" id="produtos">
+      <div class="section-intro">
+        <span class="kicker">O QUE VOCÊ ESTÁ PROCURANDO?</span>
+        <h2>Tem coisa pra<br><em>muito tipo de pet.</em></h2>
+        <p>Escolha uma categoria para perguntar sobre produtos e disponibilidade. A equipe te atende pelo WhatsApp.</p>
       </div>
-      <p class="category-footnote">Não encontrou o que procura? Pergunte pra gente pelo WhatsApp.</p>
+      <div class="product-list">
+        <a href="https://wa.me/5518996077779?text=Oi!%20Queria%20consultar%20produtos%20para%20c%C3%A3es." target="_blank" rel="noopener"><span class="product-index">01</span><span class="product-name">Cães</span><span class="product-detail">Rações, petiscos, brinquedos e acessórios</span><span class="product-arrow">↗</span></a>
+        <a href="https://wa.me/5518996077779?text=Oi!%20Queria%20consultar%20produtos%20para%20gatos." target="_blank" rel="noopener"><span class="product-index">02</span><span class="product-name">Gatos</span><span class="product-detail">Alimentação, higiene e acessórios</span><span class="product-arrow">↗</span></a>
+        <a href="https://wa.me/5518996077779?text=Oi!%20Queria%20consultar%20produtos%20de%20aquarismo." target="_blank" rel="noopener"><span class="product-index">03</span><span class="product-name">Aquarismo</span><span class="product-detail">Aquários e produtos para peixes</span><span class="product-arrow">↗</span></a>
+        <a href="https://wa.me/5518996077779?text=Oi!%20Queria%20consultar%20produtos%20para%20outros%20animais." target="_blank" rel="noopener"><span class="product-index">04</span><span class="product-name">Outros animais</span><span class="product-detail">Opções para diferentes companheiros</span><span class="product-arrow">↗</span></a>
+        <a href="https://wa.me/5518996077779?text=Oi!%20Queria%20consultar%20medicamentos%20e%20itens%20de%20cuidado." target="_blank" rel="noopener"><span class="product-index">05</span><span class="product-name">Cuidados</span><span class="product-detail">Medicamentos e itens de cuidado</span><span class="product-arrow">↗</span></a>
+      </div>
+      <p class="small-note">Não achou sua categoria? Pergunte mesmo assim. Consulte marcas, opções e disponibilidade diretamente com a loja.</p>
     </section>
-    <section class="care-section" id="sobre">
-      <div class="care-photo" role="img" aria-label="Cachorro recebendo carinho"></div>
-      <div class="care-copy"><span class="eyebrow">UM PET SHOP PARA MUITOS TIPOS DE PET</span><h2>Do básico ao mimo que deixa o dia <em>mais feliz.</em></h2><p>Tem ração para a rotina, acessórios para acompanhar as aventuras, itens de cuidado, aquarismo e produtos para vários animais. E se bater aquela dúvida, chama a gente!</p><a class="button button-yellow" href="https://wa.me/5518996077779" target="_blank" rel="noopener">Perguntar pelo WhatsApp <span>↗</span></a><div class="care-tags"><span>Rações</span><span>Acessórios</span><span>Medicamentos</span><span>Aquarismo</span></div></div>
+
+    <section class="about" id="loja">
+      <div class="about-mark"><img src="logo.jpg" alt="Mascote Agro Cão"></div>
+      <div class="about-copy">
+        <span class="kicker">AGRO CÃO · OSVALDO CRUZ</span>
+        <h2>Uma loja, vários<br><em>companheiros.</em></h2>
+        <p>A Agro Cão reúne produtos para quem cuida de animais diferentes — do cachorro e do gato aos peixes e outros pets. Precisa encontrar algo? Fale com a loja e consulte as opções.</p>
+        <a class="underlink" href="https://www.instagram.com/agrocaopetshop/" target="_blank" rel="noopener">Acompanhe a Agro Cão no Instagram ↗</a>
+      </div>
     </section>
-    <section class="contact section" id="contato"><div class="contact-card"><div><span class="eyebrow">A GENTE TE AJUDA!</span><h2>Procurando alguma<br><em>coisinha pro pet?</em></h2><p>Manda uma mensagem! Consulte produtos, opções e disponibilidade direto com a equipe da Agro Cão.</p><a class="button button-primary" href="https://wa.me/5518996077779" target="_blank" rel="noopener">Falar pelo WhatsApp <span>↗</span></a></div><div class="contact-art"><span class="big-paw">🐾</span><span class="contact-circle">AU AU!<br>OI, MIAU!</span></div></div></section>
+
+    <section class="contact section" id="contato">
+      <div>
+        <span class="kicker">FICOU COM DÚVIDA?</span>
+        <h2>É só chamar<br><em>a Agro Cão.</em></h2>
+        <p>Consulte produtos, marcas e disponibilidade direto com a equipe.</p>
+      </div>
+      <a class="button button-light" href="https://wa.me/5518996077779" target="_blank" rel="noopener">Abrir conversa no WhatsApp <span>↗</span></a>
+    </section>
   </main>
-  <footer><a class="brand footer-brand" href="#inicio"><img class="brand-logo" src="logo.jpg" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="brand-fallback">🐾</span><span class="brand-name">AGRO CÃO<small>PET SHOP</small></span></a><p>Um abraço (e um carinho) em todos os pets!</p><a href="https://www.instagram.com/agrocaopetshop/" target="_blank" rel="noopener">@agrocaopetshop ↗</a><small class="demo-note">Demonstração de site. Imagens ilustrativas; produtos e disponibilidade devem ser confirmados com a loja.</small><small>© <span id="year"></span> Agro Cão Pet Shop</small></footer>
-  <a class="whatsapp-float" href="https://wa.me/5518996077779" target="_blank" rel="noopener" aria-label="Falar com a Agro Cão pelo WhatsApp">☏</a>
+
+  <footer>
+    <a class="brand footer-brand" href="#inicio"><img src="logo.jpg" alt=""><span>AGRO CÃO<small>PET SHOP · OSVALDO CRUZ</small></span></a>
+    <a href="https://www.instagram.com/agrocaopetshop/" target="_blank" rel="noopener">@agrocaopetshop ↗</a>
+    <small>© <span id="year"></span> Agro Cão Pet Shop</small>
+    <p class="disclaimer">Página demonstrativa. Consulte a loja para confirmar produtos e disponibilidade.</p>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/5518996077779" target="_blank" rel="noopener" aria-label="Falar com a Agro Cão pelo WhatsApp">↗</a>
   <script src="script.js"></script>
 </body>
 </html>
